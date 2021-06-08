@@ -1,0 +1,28 @@
+{
+  "httpRequest": {
+    "method": "GET",
+    "path": "/stocks/indices"
+  },
+  "httpResponse": {
+    "statusCode": 200,
+    "body": {
+      "type": "JSON",
+      "json": {
+        "data": [
+          {
+            "id": 1,
+            "country": "United States",
+            "index_name": "Nasdaq",
+            "full_name": "Nasdaq Composite"
+          },
+          {
+            "id": 2,
+            "country": "Japan",
+            "category_name": "Topix 500 Value",
+            "full_name": "Topix 500 Value"
+          }
+        ]
+      }
+    }
+  }
+}
